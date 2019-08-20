@@ -9,12 +9,20 @@
         <module name="dubbo-api" />
         <module name="dubbo-customer" />
         <module name="dubbo-provider" />
-        <module name="dubbo_demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="a" target="1.5" />
+      <module name="a-b" target="1.5" />
+      <module name="aa" target="1.7" />
+      <module name="commiranademo" target="1.5" />
+      <module name="demo" target="1.8" />
+      <module name="test" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
       <module name="dubbo-api" options="-parameters" />
       <module name="dubbo-customer" options="-parameters" />
       <module name="dubbo-provider" options="-parameters" />

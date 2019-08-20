@@ -1,4 +1,4 @@
-package com.mirana.provider.service;
+package com.mirana.provider.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.mirana.api.model.Phone;
