@@ -9,6 +9,7 @@
         <module name="dubbo-api" />
         <module name="dubbo-customer" />
         <module name="dubbo-provider" />
+        <module name="dubbo_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
